@@ -15,3 +15,8 @@ def getkey(item):
 draw.sort()
 draw.sort(key=operator.itemgetter(1))
 print(draw)
+
+'''
+gbern$ python deck.py 
+[(6, 'C'), (8, 'C'), (9, 'C'), (1, 'D'), (6, 'D'), (8, 'D'), (9, 'D'), (1, 'H'), (6, 'H'), (11, 'H'), (3, 'S'), (7, 'S'), (13, 'S')]
+'''
